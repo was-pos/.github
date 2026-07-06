@@ -12,7 +12,7 @@ A distributed, scalable POS platform designed around:
 
 ## Tech Stack
 
-`Java` · `Spring Boot` · `Spring Cloud Gateway` · `Next.js` · `React` · `Kubernetes` · `Docker` · `PostgreSQL/MySQL`
+`Java` · `Spring Boot` · `Spring Cloud Gateway` · `Next.js` · `React` · `Kubernetes` · `Docker` · `MariaDB`
 
 <!--STATS_START-->
 **Org stats** _(auto-updated)_

@@ -6,6 +6,11 @@ const ORG = "was-pos";
 const README_PATH = "profile/README.md";
 const TOKEN = process.env.ORG_TOKEN;
 
+// GitHub's /languages API counts raw bytes. Notebook .ipynb files are JSON
+// with embedded cell outputs (often base64 images), so a few notebooks can
+// dwarf the real codebase — exclude them from the percentage breakdown.
+const EXCLUDED_LANGUAGES = new Set(["Jupyter Notebook"]);
+
 const headers = {
   Authorization: `Bearer ${TOKEN}`,
   Accept: "application/vnd.github+json",
@@ -45,6 +50,10 @@ async function getLanguageTotals(repos) {
       `https://api.github.com/repos/${ORG}/${repo.name}/languages`
     );
     for (const [lang, bytes] of Object.entries(langs)) {
+      if (EXCLUDED_LANGUAGES.has(lang)) {
+        console.log(`Excluded ${bytes} bytes of ${lang} in ${repo.name}.`);
+        continue;
+      }
       totals[lang] = (totals[lang] || 0) + bytes;
     }
   }

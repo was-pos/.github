@@ -19,21 +19,17 @@ A distributed, scalable POS platform designed around:
 
 | Metric | Count |
 |---|---|
-| Public repos | 1 |
-| Private repos | 114 |
-| Total repos | 115 |
+| Public repos | – |
+| Private repos | – |
+| Total repos | – |
 
 **Top languages across all repos**
 
 | Language | % of codebase |
 |---|---|
-| Jupyter Notebook | 64.0% |
-| Java | 24.2% |
-| JavaScript | 8.6% |
-| TypeScript | 1.8% |
-| Python | 0.4% |
+| _pending first run_ | |
 
-_Last updated: 2026-07-06_
+_Last updated: not yet run_
 <!--STATS_END-->
 
 ## 📫 Contact

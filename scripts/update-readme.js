@@ -28,7 +28,14 @@ async function getAllRepos() {
     if (batch.length < 100) break;
     page++;
   }
-  return repos;
+  // Exclude forks — a forked repo's language stats belong to the upstream
+  // project, not to work actually authored by this org.
+  const ownRepos = repos.filter((r) => !r.fork);
+  const forkCount = repos.length - ownRepos.length;
+  if (forkCount > 0) {
+    console.log(`Excluded ${forkCount} forked repo(s) from stats.`);
+  }
+  return ownRepos;
 }
 
 async function getLanguageTotals(repos) {

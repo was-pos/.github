@@ -1,4 +1,4 @@
-# WAS POS
+# WASPOS
 
 Building modern, multi-tenant Point-of-Sale (POS) software — from cloud-native backend services to responsive front-end experiences.
 

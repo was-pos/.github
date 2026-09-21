@@ -20,20 +20,20 @@ A distributed, scalable POS platform designed around:
 | Metric | Count |
 |---|---|
 | Public repos | 1 |
-| Private repos | 137 |
-| Total repos | 138 |
+| Private repos | 140 |
+| Total repos | 141 |
 
 **Top languages across all repos**
 
 | Language | % of codebase |
 |---|---|
-| Java | 53.3% |
-| TypeScript | 21.7% |
-| JavaScript | 12.2% |
-| Python | 9.0% |
-| HCL | 1.6% |
+| Java | 53.9% |
+| TypeScript | 21.5% |
+| JavaScript | 12.1% |
+| Python | 8.9% |
+| HCL | 1.5% |
 
-_Last updated: 2026-09-20_
+_Last updated: 2026-09-21_
 <!--STATS_END-->
 
 ## 📫 Contact

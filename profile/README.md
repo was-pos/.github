@@ -27,13 +27,13 @@ A distributed, scalable POS platform designed around:
 
 | Language | % of codebase |
 |---|---|
-| Java | 49.4% |
-| TypeScript | 20.3% |
-| JavaScript | 10.9% |
-| Python | 9.4% |
-| HCL | 7.6% |
+| Java | 49.5% |
+| TypeScript | 20.5% |
+| JavaScript | 10.8% |
+| Python | 9.3% |
+| HCL | 7.5% |
 
-_Last updated: 2026-11-08_
+_Last updated: 2026-11-09_
 <!--STATS_END-->
 
 ## 📫 Contact
